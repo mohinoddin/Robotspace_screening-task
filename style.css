@@ -1,0 +1,32 @@
+.container{
+    text-align: center;
+    margin: 100px;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.timerBox{
+    margin-top: 150px;
+}
+
+.card-body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #08df1e;
+    font-weight: 900;
+    cursor: pointer;
+    cursor: pointer;
+    border-radius: 20px;
+}
