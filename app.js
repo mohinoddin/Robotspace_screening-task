@@ -12,6 +12,9 @@ const  startTimer=()=>{
     if(stopTime==true){
         stopTime=false
         startBtn.style.background='yellow'
+        if(stopBtn.style.background=='yellow'){
+            stopBtn.style.background='#08df1e'
+        }
         timerCycle()
     }
 }
@@ -37,7 +40,10 @@ function resetTimer(){
     
     stopTime=true
     startBtn.style.background='#08df1e'
-    stopBtn.style.background='#08df1e'
+    if(stopBtn.style.background=='yellow'){
+        stopBtn.style.background='#08df1e'
+    }
+    
     counter=0
     timer.innerHTML= h1txt
   
